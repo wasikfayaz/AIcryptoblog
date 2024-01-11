@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Soft white background */
+    color: #333333; /* Dark gray text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #222; /* Dark gray header background */
+    color: rgb(130, 46, 110);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #222; /* Dark gray footer background */
+    color: rgb(130, 46, 110);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add the following styles to enhance the appearance of the blog image */
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+    margin-bottom: 20px; /* Adjust as needed to create spacing between the image and text */
+}
+
+/* Additional styling for the clickable elements (products, posts, etc.) */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Header styles */
+header {
+    background-color: #222; /* Dark gray header background */
+    color: rgb(137, 63, 113);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 4px solid #f9f8f8; /* Border beneath the header */
+    border-top-left-radius: 10px; /* Rounded corners for top-left */
+    border-top-right-radius: 10px; /* Rounded corners for top-right */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222; /* Dark gray footer background */
+    color: rgb(137, 63, 113);
+    text-align: center;
+    padding: 20px; /* Increased padding for a more prominent look */
+    border-top: 4px solid #f9f6f6; /* Border above the footer */
+    border-bottom-left-radius: 10px; /* Rounded corners for bottom-left */
+    border-bottom-right-radius: 10px; /* Rounded corners for bottom-right */
+}
+
+
+
+/* Additional styling for the clickable elements (products, posts, etc.) */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}
+/* Add the following styles to enhance the appearance of anchor elements */
+
+/* Remove underline and style anchor elements */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #f8f7f7; /* Set the color for anchor elements */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #904c7a; /* Change color on hover */
+}

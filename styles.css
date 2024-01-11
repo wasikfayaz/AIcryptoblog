@@ -1,0 +1,306 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a2a2a;
+    color: rgb(130, 46, 110);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product-box {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+}
+
+button {
+    background-color: #af4ca8;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9145a0;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.featured-post {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.featured-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.meta {
+    color: #999;
+}
+
+.read-more {
+    color: #af4caf;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.recent-posts {
+    margin-top: 30px;
+}
+
+.recent-posts article {
+    margin-bottom: 20px;
+}
+
+/* Your existing styles remain unchanged */
+
+footer {
+    background-color: #222; /* Dark gray footer background */
+    color: rgb(130, 46, 110);
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Add the following styles at the end of your existing CSS file */
+
+/* Style for the clickable product box */
+.product-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product-box:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add the following styles at the end of your existing CSS file */
+
+/* Style for the clickable recent post */
+.featured-post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.featured-post:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add any additional styling for the post content as needed */
+.post-date {
+    margin-top: 10px;
+}
+/* Add the following styles to enhance the header and footer */
+
+/* Header styles */
+header {
+    background-color: #222; /* Dark gray header background */
+    color: rgb(136, 65, 112);
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 4px solid #555; /* Border beneath the header */
+    border-top-left-radius: 10px; /* Rounded corners for top-left */
+    border-top-right-radius: 10px; /* Rounded corners for top-right */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222; /* Dark gray footer background */
+    color: rgb(136, 64, 124);
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid #555; /* Border above the footer */
+    border-bottom-left-radius: 10px; /* Rounded corners for bottom-left */
+    border-bottom-right-radius: 10px; /* Rounded corners for bottom-right */
+}
+
+/* Social icons in the footer */
+
+
+/* Additional styling for the clickable elements (products, posts, etc.) */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}
+
+/* Add any additional styling as needed */
+/* Add the following styles to enhance the appearance of anchor elements */
+
+/* Remove underline and style anchor elements */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #fefefe; /* Set the color for anchor elements */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #fffdfd; /* Change color on hover */
+}
